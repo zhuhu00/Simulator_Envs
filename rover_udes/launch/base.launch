@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<launch>
+
+<!-- Launch all base nodes -->
+
+<include file="$(find rover_control)/launch/joy.launch"/>
+<include file="$(find rover_gui)/launch/ui.launch"/>
+
+</launch>

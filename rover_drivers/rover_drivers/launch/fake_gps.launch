@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<launch>
+
+<!-- Launch fake gps publishing node and subscribing node -->
+
+<node pkg="rover_drivers" name="fake_gps" type="fake_gps.py" output="screen">
+	</node>
+
+<node pkg="rover_drivers" name="gps_sub" type="gps_sub.py" output="screen">
+	</node>
+
+</launch>
